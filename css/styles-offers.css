@@ -1,0 +1,90 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    color: #eee;
+}
+
+body{
+    margin: 0;
+    background-color: #eee;
+}
+
+/* Nav-bar */
+
+nav{
+    background-color: #002855;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    top: 0;    
+}
+
+/* Cards - Ofertas */
+
+.offers-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 450px;    
+    color: #eee;
+    flex-flow: wrap;
+    align-items: center;    
+    margin-bottom: 100px;
+    margin-top: 100px;
+   
+}
+
+.offers-container div{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #002855;
+    width: 125px;
+    height: 180px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #333;   
+}
+
+.offers-container div p{
+    text-align: center;
+}
+
+.preco{
+    margin-top: 40px;
+    font-size: 24px;
+}
+
+/*Botão cep errado */
+.btn-cep{    
+    position: fixed;
+    bottom: 60px;
+    right: 10px;        
+}
+
+.btn-cep button{
+    width: 240px;
+    height: 40px;
+    font-size: 18pt; 
+    background: #e40b0b; 
+    border: 1px;
+    box-shadow: 2px 2px 2px #333;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+.btn-cep button a{
+    text-decoration: none;
+    color: #eee;
+}
+
+/*footer*/
+footer{
+    background-color: #002855;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
